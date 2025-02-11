@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>final</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>index</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7509,26 +7509,52 @@ a.anchor-link {
 </style>
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<main><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="COGS-108---Effects-of-Milkweed-Populations-and-Air-Temperature-on-Monarch-Butterfly-Populations">COGS 108 - Effects of Milkweed Populations and Air Temperature on Monarch Butterfly Populations<a class="anchor-link" href="#COGS-108---Effects-of-Milkweed-Populations-and-Air-Temperature-on-Monarch-Butterfly-Populations">¶</a></h1><h1 id="Permissions">Permissions<a class="anchor-link" href="#Permissions">¶</a></h1><p>Place an <code>X</code> in the appropriate bracket below to specify if you would like your group's project to be made available to the public. (Note that student names will be included (but PIDs will be scraped from any groups who include their PIDs).</p>
-<ul>
-<li>[ X ] YES - make available</li>
-<li>[  ] NO - keep private</li>
-</ul>
-<h1 id="Names">Names<a class="anchor-link" href="#Names">¶</a></h1><ul>
-<li>Ethan Kim</li>
-<li>Jonah Davis</li>
-<li>Joseph Byrd</li>
-<li>Justin He</li>
-<li>Rohun Kulshrestha</li>
-</ul>
-<h1 id="Abstract">Abstract<a class="anchor-link" href="#Abstract">¶</a></h1><p>This study examines the population and migration dynamics of monarch butterflies (Danaus plexippus) predicated on milkweed populations (primary food source) and historic air temperature data. Leveraging species observation data from iNaturalist, this research investigates the relationships–both general and geospatial–between air temperature, milkweed populations, and monarch populations. The study faces limitations due to the tenuous reliability of the iNaturalist dataset thereby imposing sampling bias. Geospatial analyses uncover a statistically significant positive correlation between the butterfly and milkweed populations (Moran’s I: 0.1770, p&lt;0.01). In regards to temperature, we discover a statistically significant negative correlation between monarchs and hot temperature areas (Moran’s I: -0.05, p&lt;0.01), and positive correlation between monarchs and cold temperature areas (Moran’s I: 0.05, p&lt;0.01). Time-series analyses uncover no significant correlation between monarch populations and air temperature but a statistically significant correlation between monarch and milkweed populations (SARIMAX: coef = 0.2631, p&lt;0.002). Possible catalysts are discussed.</p>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="o">&lt;</span><span class="n">script</span><span class="o">&gt;</span>
+    <span class="n">document</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="s2">"Monarch Butterfly Populations"</span><span class="p">;</span>
+<span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Effects of Milkweed Populations and Air Temperature on Monarch Butterfly Populations</span>
+
+<span class="c1"># Permissions</span>
+
+<span class="n">Place</span> <span class="n">an</span> <span class="err">`</span><span class="n">X</span><span class="err">`</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">appropriate</span> <span class="n">bracket</span> <span class="n">below</span> <span class="n">to</span> <span class="n">specify</span> <span class="k">if</span> <span class="n">you</span> <span class="n">would</span> <span class="n">like</span> <span class="n">your</span> <span class="n">group</span><span class="s1">'s project to be made available to the public. (Note that student names will be included (but PIDs will be scraped from any groups who include their PIDs).</span>
+
+<span class="o">*</span> <span class="p">[</span> <span class="n">X</span> <span class="p">]</span> <span class="n">YES</span> <span class="o">-</span> <span class="n">make</span> <span class="n">available</span>
+<span class="o">*</span> <span class="p">[</span>  <span class="p">]</span> <span class="n">NO</span> <span class="o">-</span> <span class="n">keep</span> <span class="n">private</span>
+
+<span class="c1"># Names</span>
+
+<span class="o">-</span> <span class="n">Ethan</span> <span class="n">Kim</span>
+<span class="o">-</span> <span class="n">Jonah</span> <span class="n">Davis</span>
+<span class="o">-</span> <span class="n">Joseph</span> <span class="n">Byrd</span>
+<span class="o">-</span> <span class="n">Justin</span> <span class="n">He</span>
+<span class="o">-</span> <span class="n">Rohun</span> <span class="n">Kulshrestha</span>
+
+<span class="c1"># Abstract</span>
+
+<span class="n">This</span> <span class="n">study</span> <span class="n">examines</span> <span class="n">the</span> <span class="n">population</span> <span class="ow">and</span> <span class="n">migration</span> <span class="n">dynamics</span> <span class="n">of</span> <span class="n">monarch</span> <span class="n">butterflies</span> <span class="p">(</span><span class="n">Danaus</span> <span class="n">plexippus</span><span class="p">)</span> <span class="n">predicated</span> <span class="n">on</span> <span class="n">milkweed</span> <span class="n">populations</span> <span class="p">(</span><span class="n">primary</span> <span class="n">food</span> <span class="n">source</span><span class="p">)</span> <span class="ow">and</span> <span class="n">historic</span> <span class="n">air</span> <span class="n">temperature</span> <span class="n">data</span><span class="o">.</span> <span class="n">Leveraging</span> <span class="n">species</span> <span class="n">observation</span> <span class="n">data</span> <span class="kn">from</span> <span class="nn">iNaturalist</span><span class="p">,</span> <span class="n">this</span> <span class="n">research</span> <span class="n">investigates</span> <span class="n">the</span> <span class="n">relationships</span><span class="err">–</span><span class="n">both</span> <span class="n">general</span> <span class="ow">and</span> <span class="n">geospatial</span><span class="err">–</span><span class="n">between</span> <span class="n">air</span> <span class="n">temperature</span><span class="p">,</span> <span class="n">milkweed</span> <span class="n">populations</span><span class="p">,</span> <span class="ow">and</span> <span class="n">monarch</span> <span class="n">populations</span><span class="o">.</span> <span class="n">The</span> <span class="n">study</span> <span class="n">faces</span> <span class="n">limitations</span> <span class="n">due</span> <span class="n">to</span> <span class="n">the</span> <span class="n">tenuous</span> <span class="n">reliability</span> <span class="n">of</span> <span class="n">the</span> <span class="n">iNaturalist</span> <span class="n">dataset</span> <span class="n">thereby</span> <span class="n">imposing</span> <span class="n">sampling</span> <span class="n">bias</span><span class="o">.</span> <span class="n">Geospatial</span> <span class="n">analyses</span> <span class="n">uncover</span> <span class="n">a</span> <span class="n">statistically</span> <span class="n">significant</span> <span class="n">positive</span> <span class="n">correlation</span> <span class="n">between</span> <span class="n">the</span> <span class="n">butterfly</span> <span class="ow">and</span> <span class="n">milkweed</span> <span class="n">populations</span> <span class="p">(</span><span class="n">Moran</span><span class="err">’</span><span class="n">s</span> <span class="n">I</span><span class="p">:</span> <span class="mf">0.1770</span><span class="p">,</span> <span class="n">p</span><span class="o">&lt;</span><span class="mf">0.01</span><span class="p">)</span><span class="o">.</span> <span class="n">In</span> <span class="n">regards</span> <span class="n">to</span> <span class="n">temperature</span><span class="p">,</span> <span class="n">we</span> <span class="n">discover</span> <span class="n">a</span> <span class="n">statistically</span> <span class="n">significant</span> <span class="n">negative</span> <span class="n">correlation</span> <span class="n">between</span> <span class="n">monarchs</span> <span class="ow">and</span> <span class="n">hot</span> <span class="n">temperature</span> <span class="n">areas</span> <span class="p">(</span><span class="n">Moran</span><span class="err">’</span><span class="n">s</span> <span class="n">I</span><span class="p">:</span> <span class="o">-</span><span class="mf">0.05</span><span class="p">,</span> <span class="n">p</span><span class="o">&lt;</span><span class="mf">0.01</span><span class="p">),</span> <span class="ow">and</span> <span class="n">positive</span> <span class="n">correlation</span> <span class="n">between</span> <span class="n">monarchs</span> <span class="ow">and</span> <span class="n">cold</span> <span class="n">temperature</span> <span class="n">areas</span> <span class="p">(</span><span class="n">Moran</span><span class="err">’</span><span class="n">s</span> <span class="n">I</span><span class="p">:</span> <span class="mf">0.05</span><span class="p">,</span> <span class="n">p</span><span class="o">&lt;</span><span class="mf">0.01</span><span class="p">)</span><span class="o">.</span> <span class="n">Time</span><span class="o">-</span><span class="n">series</span> <span class="n">analyses</span> <span class="n">uncover</span> <span class="n">no</span> <span class="n">significant</span> <span class="n">correlation</span> <span class="n">between</span> <span class="n">monarch</span> <span class="n">populations</span> <span class="ow">and</span> <span class="n">air</span> <span class="n">temperature</span> <span class="n">but</span> <span class="n">a</span> <span class="n">statistically</span> <span class="n">significant</span> <span class="n">correlation</span> <span class="n">between</span> <span class="n">monarch</span> <span class="ow">and</span> <span class="n">milkweed</span> <span class="n">populations</span> <span class="p">(</span><span class="n">SARIMAX</span><span class="p">:</span> <span class="n">coef</span> <span class="o">=</span> <span class="mf">0.2631</span><span class="p">,</span> <span class="n">p</span><span class="o">&lt;</span><span class="mf">0.002</span><span class="p">)</span><span class="o">.</span> <span class="n">Possible</span> <span class="n">catalysts</span> <span class="n">are</span> <span class="n">discussed</span><span class="o">.</span>
+</pre></div>
+</div>
 </div>
 </div>
 </div>
